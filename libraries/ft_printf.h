@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_printf.h                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: fkarika <filip.karika1@gmail.com>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/10/04 15:28:55 by fkarika           #+#    #+#             */
+/*   Updated: 2024/10/04 16:30:22 by fkarika          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
 
@@ -14,5 +26,6 @@ int		ft_print_string(char *str);
 int		ft_print_number(long n, int base, char *symbols);
 int		ft_print_pointer(
 			unsigned long long ptr, unsigned long long base, char *symbols);
+int		ft_printf(const char *str, ...);
 
 #endif
