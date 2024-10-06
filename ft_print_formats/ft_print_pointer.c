@@ -17,8 +17,6 @@ static int	not_null_ptr(
 {
 	int	count;
 
-	if (!ptr)
-		return (write(1, "(nil)", 5));
 	count = 0;
 	if (ptr < base)
 		return (ft_print_char(symbols[ptr]));
